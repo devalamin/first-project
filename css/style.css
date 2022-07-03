@@ -45,3 +45,44 @@ body {
 #banner .text .orange-color {
     color: orange;
 }
+
+#dream {
+    display: flex;
+    margin-top: 100px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#dream .left {
+    width: 50%;
+
+}
+
+#dream .left img {
+    width: 80%;
+}
+
+#dream .right {
+    width: 50%;
+    margin-right: 50px;
+
+}
+
+#dream .right h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#dream .right h4 {
+    font-weight: 500;
+}
+
+#dream .right a {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(orange, purple);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
