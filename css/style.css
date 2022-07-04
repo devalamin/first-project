@@ -124,6 +124,11 @@ body {
     border-left: 8px solid blue;
 }
 
+#last {
+    height: 100px;
+    background-color: purple;
+}
+
 footer p {
     text-align: center;
 }
