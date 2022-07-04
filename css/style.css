@@ -82,7 +82,48 @@ body {
 #dream .right a {
     color: #fff;
     text-decoration: none;
-    background-image: linear-gradient(orange, purple);
+    background-image: linear-gradient(orange, purple, red);
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+#experience {
+    margin-bottom: 100px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#experience h2 {
+    font-size: 40px;
+}
+
+#experience .main {
+    display: flex;
+}
+
+#experience .main .text {
+    width: 40%;
+    margin: 0 3%;
+    padding: 50px;
+    text-align: justify;
+    box-shadow: 5px 10px 40px gray;
+    border-radius: 5px;
+}
+
+#experience .main .text h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#experience .main .border-l {
+    border-left: 8px solid tomato;
+}
+
+#experience .main .border-r {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
